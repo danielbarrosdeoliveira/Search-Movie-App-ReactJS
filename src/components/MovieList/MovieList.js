@@ -31,7 +31,7 @@ class MovieList extends Component {
     const { movieList } = this.state;
 
     return (
-      <div>
+      <div className="form">
         <form onSubmit={this.search}>
           <input
             placeholder="Search for a movie"

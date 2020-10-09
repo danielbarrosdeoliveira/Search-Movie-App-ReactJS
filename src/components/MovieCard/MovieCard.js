@@ -16,7 +16,7 @@ class MovieCard extends Component {
   }
 
   render() {
-    const { Title, Releasead, Plot, Poster, imdbRating } = this.state.movieData;
+    const { Title, Released, Plot, Poster, imdbRating } = this.state.movieData;
 
     return (
       <div className="movie-card-container">
@@ -30,7 +30,7 @@ class MovieCard extends Component {
           <h2>Movie Details</h2>
           <div>
             <h1>{Title}</h1>
-            <small>Releasead Date: {Releasead}</small>
+            <small>Releasead Date: {Released}</small>
           </div>
           <h4>Rating: {imdbRating} / 10</h4>
           <p>{Plot && Plot.substr(0, 350)}</p>

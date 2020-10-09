@@ -191,3 +191,13 @@ footer a {
     width: 100%;
   }
 }
+@media (min-width: 0px) and (max-width: 960px) {
+  .form {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+  .movie-card-container {
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+}
